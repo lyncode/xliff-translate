@@ -4,7 +4,7 @@ XLIFF Translation Utils
 **What is?**
 
 XLIFF Translation utils is a Java library that allows one to read and write
-[XLIFF](http://docs.oasis-open.org/xliff/xliff-core/xliff-core.html) files.
+[XLIFF](http://docs.oasis-open.org/xliff/xliff-core/xliff-core.html) files for translation purposes only and with a simple schema.
 
 **How to use it?**
 
