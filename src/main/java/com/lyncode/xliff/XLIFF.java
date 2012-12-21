@@ -17,11 +17,11 @@ public class XLIFF {
 				translations.put(u.getSource(), u.getTarget());
 	}
 	
-	public String getMessage (String source) {
+	public String getTarget (String source) {
 		return translations.get(source);
 	}
 	
-	public Collection<String> getSource () {
+	public Collection<String> getSources () {
 		return translations.keySet();
 	}
 }

@@ -45,11 +45,11 @@ public class XLiffUtils {
 		
 		int i = 1;
 		
-		for (String s : x.getSource()) {
+		for (String s : x.getSources()) {
 			TransUnit u = new TransUnit();
 			u.setId(i++);
 			u.setSource(s);
-			u.setTarget(x.getMessage(s));
+			u.setTarget(x.getTarget(s));
 			body.getTransUnit().add(u);
 		}
 			
@@ -66,8 +66,8 @@ public class XLiffUtils {
 	public static void main (String... args) throws XliffException, IOException {
 		FileInputStream input = new FileInputStream("sample/example1.xliff");
 		XLIFF x = XLiffUtils.read(input);
-		for (String s : x.getSource())
-			System.out.println(x.getMessage(s));
+		for (String s : x.getSources())
+			System.out.println(x.getTarget(s));
 		input.close();
 	}
 }
