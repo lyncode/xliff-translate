@@ -24,9 +24,9 @@ here](https://github.com/lyncode/xliff-translate/blob/master/sample/example1.xli
 3.  Code it!
 
 	
-	InputStream is = new FileInputStream("<path-to-xliff>");
-	XLIFF x = XliffUtils.read(is);
-	System.out.println(x.getMessage("Search this site"));
+	    InputStream is = new FileInputStream("<path-to-xliff>");
+	    XLIFF x = XliffUtils.read(is);
+ 	    System.out.println(x.getMessage("Search this site"));
 	
 
 - - -
