@@ -11,22 +11,22 @@ XLIFF Translation utils is a Java library that allows one to read and write
 1.   Include it on your project. Download the Jar
 ([here](http://link_here.please)), or use maven:
 
-    <dependency\>
-      <groupId\>com.lyncode</groupId\>
-      <artifactId\>xliff</artifactId\>
-      <version\>1.0.0</version\>
-    </dependency\>
+    <dependency>
+      <groupId>com.lyncode</groupId>
+      <artifactId>xliff</artifactId>
+      <version>1.0.0</version>
+    </dependency>
 
 2.  Create a XLIFF file ([example
 here](https://github.com/lyncode/xliff-translate/blob/master/sample/example1.xliff)).
 
 3.  Code it!
 
-    InputStream is = new FileInputStream("<path-to-xliff\>");
+    InputStream is = new FileInputStream("<path-to-xliff>");
     XLIFF x = XliffUtils.read(is);
     System.out.println(x.getMessage("Search this site"));
 
------------------
+- - -
 
 ### License
 
