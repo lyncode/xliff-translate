@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.lyncode</groupId>
     <artifactId>xliff-parent</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
 
     <name>XLIFF Tools</name>
@@ -28,7 +28,8 @@
         <connection>scm:git:git@github.com:lyncode/xliff-translate.git</connection>
         <developerConnection>scm:git:git@github.com:lyncode/xliff-translate.git</developerConnection>
         <url>git@github.com:lyncode/xliff-translate.git</url>
-    </scm>
+      <tag>xliff-parent-1.0.2</tag>
+  </scm>
 
     <modules>
         <module>xliff-core</module>
