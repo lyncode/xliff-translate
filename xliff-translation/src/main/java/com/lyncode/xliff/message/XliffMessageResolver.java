@@ -63,7 +63,7 @@ public class XliffMessageResolver implements MessageResolver {
                     String target = xliff.getTarget(code);
                     if (target != null) return PluralProperty.translate(count, target, replacements);
                 }
-                return null;
+                return PluralProperty.translate(count, code, replacements);
             }
         });
     }
